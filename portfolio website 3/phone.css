@@ -1,0 +1,149 @@
+/* ====== Responsive ====== */
+@media (max-width: 900px) {
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 7rem 5%;
+    }
+
+    .home-img img {
+        margin-top: 2rem;
+    }
+
+    .home-inner {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+
+    .home-img img {
+        width: 200px;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 4rem 5%;
+    }
+
+    .about-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-img img {
+        width: 280px;
+        margin-bottom: 1.5rem;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
+    .about-inner {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+
+
+    .about-content p {
+        font-size: 1rem;
+    }
+
+    .about-img img {
+        width: 280px;
+    }
+
+    .projects {
+        padding: 4rem 6%;
+    }
+
+    .projects-inner {
+        padding: 0 15px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-about,
+    .footer-links,
+    .footer-services {
+        min-width: 100%;
+    }
+
+    .footer-socials a {
+        margin: 0 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #fff;
+        width: 27%;
+        text-align: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem 0;
+        display: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        font-size: 1.1rem;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .home-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .home-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-card img {
+        height: 180px;
+    }
+
+    .project-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .btn-dark {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.85rem;
+    }
+}
